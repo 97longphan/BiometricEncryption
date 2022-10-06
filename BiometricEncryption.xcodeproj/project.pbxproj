@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6B74759928E6D0770055C3CE /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74759828E6D0770055C3CE /* KeyChain.swift */; };
 		6B74759B28E6D09E0055C3CE /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74759A28E6D09E0055C3CE /* KeyChainManager.swift */; };
+		6B908D9728EEBC8C007327B1 /* KeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B908D9628EEBC8C007327B1 /* KeyService.swift */; };
 		6BD2B53E28E5A62B00E71FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2B53D28E5A62B00E71FE4 /* AppDelegate.swift */; };
 		6BD2B54028E5A62B00E71FE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2B53F28E5A62B00E71FE4 /* SceneDelegate.swift */; };
 		6BD2B54228E5A62B00E71FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2B54128E5A62B00E71FE4 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		6B74759828E6D0770055C3CE /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 		6B74759A28E6D09E0055C3CE /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		6B908D9628EEBC8C007327B1 /* KeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyService.swift; sourceTree = "<group>"; };
 		6BD2B53A28E5A62B00E71FE4 /* BiometricEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD2B53D28E5A62B00E71FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD2B53F28E5A62B00E71FE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			children = (
 				6B74759828E6D0770055C3CE /* KeyChain.swift */,
 				6B74759A28E6D09E0055C3CE /* KeyChainManager.swift */,
+				6B908D9628EEBC8C007327B1 /* KeyService.swift */,
 			);
 			path = KeyChain;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BD2B54228E5A62B00E71FE4 /* ViewController.swift in Sources */,
+				6B908D9728EEBC8C007327B1 /* KeyService.swift in Sources */,
 				6B74759928E6D0770055C3CE /* KeyChain.swift in Sources */,
 				6B74759B28E6D09E0055C3CE /* KeyChainManager.swift in Sources */,
 				6BD2B53E28E5A62B00E71FE4 /* AppDelegate.swift in Sources */,
